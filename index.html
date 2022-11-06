@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--name       : Jeel Patel
+        Description: JS/Date/Try & Catch/Cookies
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try-Catch</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="./java/TryCatch.js"></script>
+</head>
+<body>
+    <table border=2 id="table">
+        <tr>
+            <td colspan="2">Example</td>
+        </tr>
+        <tr>
+            <td colspan="2" id="secondRow">You sell a taxable good for $<span id="value"> ?? </span>. Taxes are calculated as follows:</td>
+        </tr>
+        <tr id="thirdRow">
+            <td>Selling Price</td>
+            <td><input id="input" type="number" min="0" max="1000"></td>
+        </tr>
+        <tr id="fifthRow">
+            <td>GST <span id="gstValue"></span> </td>
+            <td><p id="gst"></p></td>
+        </tr>
+        <tr id="sixthRow">
+            <td>QST <span id="qstvalue">??</span> </td>
+            <td><p id="qst">??</p></td>
+        </tr>
+        <tr id="seventhRow">
+            <td>Total</td>
+            <td><p id="totalValue">?</p></td>
+        </tr><tr></tr>
+        <tr>
+            <td id="eighthRow" colspan="2">
+                <button onclick="calc()">Display Total</button>
+                <button onclick="reSet()">Reset</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

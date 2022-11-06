@@ -1,0 +1,40 @@
+
+table{
+     width:30%;
+     margin: auto;
+     margin-top: 5%;
+     border : 2px solid crimson;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 5px crimson;
+}
+#eighthRow button
+{
+    margin-left: 37%;
+}
+.style1{
+    background-color: crimson;
+    color: white;
+    border-color: white;
+    font-size: large;
+    font-family: Fantasy;
+}
+.style2{
+    width:30%;
+    margin: auto;
+    margin-top: 5%;
+   
+    border : 2px solid crimson;
+   box-sizing: border-box;
+   box-shadow: 3px 4px 5px crimson;
+}
+.styleForInpiut
+{
+    background-color: white;
+}
+#eighthRow button
+{
+    margin: 2%;
+    margin-left:20%;
+}
+
+
